@@ -1,0 +1,30 @@
+{
+  "name": "cowsay-mrumurari0",
+  "version": "1.0.0",
+  "description": "```\r  _________________\r < 'Brr it's cold' >\r  -----------------\r    \\\r     \\\r         .--.\r        |o_o |\r        |:_/ |\r       //   \\ \\\r      (|     | )\r     /'\\_   _/`\\\r     \\___)=(___/'\r ```",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cowsay": "cowsay",
+    "moo": "cowsay 'Hello from npm scripts!'",
+    "favorite": "cowsay -f dragon 'Greetings from the dragon!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/cowsay-mrumurari0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/cowsay-mrumurari0/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/cowsay-mrumurari0#readme",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
+}
